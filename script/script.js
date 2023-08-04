@@ -22,7 +22,7 @@ function getTheme(){
 }
 
 //code for theme switch
-//
+// button function that will change the theme of website on click and the icon of the button change according to the theme
 function themeSwitch(){
     var icon = document.getElementById("theme-icon");
 
@@ -112,7 +112,7 @@ var tableDate = [
   },
 ]
 
-//function to built table 
+//function to built table with json table data.
 //input      : table data (array of objects)
 //output     : table in html
 function builtTable(tData){
